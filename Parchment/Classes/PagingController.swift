@@ -317,13 +317,13 @@ final class PagingController: NSObject {
         if collectionView.near(edge: .left, clearance: contentInsets.left) {
             if let firstPagingItem = visibleItems.items.first {
                 if visibleItems.hasItemsBefore {
-                    reloadItems(around: firstPagingItem)
+                    //reloadItems(around: firstPagingItem)
                 }
             }
         } else if collectionView.near(edge: .right, clearance: contentInsets.right) {
             if let lastPagingItem = visibleItems.items.last {
                 if visibleItems.hasItemsAfter {
-                    reloadItems(around: lastPagingItem)
+                    //reloadItems(around: lastPagingItem)
                 }
             }
         }
