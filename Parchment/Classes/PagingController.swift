@@ -541,7 +541,7 @@ final class PagingController: NSObject {
 
         // We need to perform layout here, if not the collection view
         // seems to get in a weird state.
-        collectionView.layoutIfNeeded()
+        //collectionView.layoutIfNeeded()
 
         // The content offset and distance between items can change while a
         // transition is in progress meaning the current transition will be
